@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.tailwindcss.com" rel="stylesheet">
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <link href="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.css" rel="stylesheet" />
+    <script src="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="icon" href="assets/logoapp.jpg" />
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Onest:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
+    <title>Project Page</title>
+</head>
+
+<body style="font-family: 'Onest', sans-serif;" class="text-neutral-800 bg-slate-50">
+    <nav class="bg-white border-[3px] border-neutral-800 rounded-xl xl:mx-[32rem] mx-5 mt-7 custom-shadow-nav">
+        <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto px-4 py-3">
+            <a href="#" class="flex items-center space-x-3 rtl:space-x-reverse">
+                <img src="assets/logop.png" class="h-12 rounded-full border-2 border-neutral-800" alt="Logo" />
+            </a>
+            <div class="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
+                <button type="button"
+                    class="text-white bg-neutral-800 hover:bg-blue-600 font-medium rounded-lg text-sm p-2 text-center transition-all duration-300 hover:-translate-y-1"><img
+                        src="assets/cvp.png" class="h-8" alt="CV"></button>
+                <button data-collapse-toggle="navbar-cta" type="button"
+                    class="inline-flex items-center p-2 w-10 h-[46px] justify-center text-sm text-neutral-800 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-neutral-800"
+                    aria-controls="navbar-cta" aria-expanded="false">
+                    <span class="sr-only">Open main menu</span>
+                    <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
+                        viewBox="0 0 17 14">
+                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M1 1h15M1 7h15M1 13h15" />
+                    </svg>
+                </button>
+            </div>
+            <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-cta">
+                <ul
+                    class="flex flex-col font-medium p-4 md:p-0 mt-4 border-2 border-neutral-800 rounded-lg md:space-x-8 space-y-2 md:space-y-0 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-white">
+                    <li>
+                        <a href="index.html"
+                            class="block py-2 px-3 md:p-0 text-neutral-800 text-lg font-bold rounded-sm hover:bg-blue-500 md:hover:bg-transparent md:hover:text-blue-500 transition-all duration-300">Home</a>
+                    </li>
+                    <li>
+                        <a href="about.html"
+                            class="block py-2 px-3 md:p-0 text-neutral-800 text-lg font-bold rounded-sm hover:bg-blue-500 md:hover:bg-transparent md:hover:text-blue-500 transition-all duration-300">About</a>
+                    </li>
+                    <li>
+                        <a href="project.html"
+                            class="block py-2 px-3 md:p-0 text-neutral-800 text-lg font-bold rounded-sm hover:bg-blue-500 md:hover:bg-transparent md:hover:text-blue-500 transition-all duration-300">Project</a>
+                    </li>
+                    <li>
+                        <a href="contact.html"
+                            class="block py-2 px-3 md:p-0 text-neutral-800 text-lg font-bold rounded-sm hover:bg-blue-500 md:hover:bg-transparent md:hover:text-blue-500 transition-all duration-300">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="w-full flex flex-col justify-center items-center mt-10 md:mt-0">
+        <div class="w-[35%] flex-col flex justify-center items-center text-center">
+            <p class="text-5xl font-bold md:mt-32">Project</p>
+            <p class="font-medium mt-5">Here are some projects that I have completed, including those from competitions,
+                assignments, and personal projects. I still want to add more projects in the future.
+            </p>
+        </div>
+        <div class="w-full flex justify-center items-center mt-10">
+            <div class="md:w-[70%] w-[85%] flex flex-col justify-center items-center">
+                <div id="card-project"
+                    class="bg-white group flex md:flex-row flex-col justify-center items-center border-4 border-neutral-800 rounded-2xl transition-all duration-300"
+                    data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+                    <div class="md:w-1/2 w-full md:py-10 py-7">
+                        <div class="flex md:space-x-10 space-x-5 items-center md:ml-10 ml-5">
+                            <p class="md:text-3xl text-2xl font-semibold">Nusakara™</p>
+                            <p class="md:text-xl text-base md:px-6 px-4 py-2 bg-neutral-800 text-white rounded-lg">Web
+                                Design</p>
+                        </div>
+                        <p class="md:text-4xl text-3xl font-bold md:leading-[3rem] leading-[2.5rem] md:mt-10 mt-7 md:ml-10 ml-5">
+                            Nusakara Studio creates sustainable rattan
+                            furniture</p>
+                        <p class="font-semibold mt-3 leading-6 md:mr-20 mr-5 md:ml-10 ml-5">Nusakara Studio creates
+                            eco-friendly rattan
+                            furniture,
+                            combining traditional Nusantara craftsmanship with modern design for both indoor and outdoor
+                            use.</p>
+                        <a href="#">
+                            <p class="mt-10 md:mt-14 text-lg font-bold md:ml-10 ml-5">View Project<span
+                                    class="group-hover:ml-2 transition-all duration-300"> 👉🏻</span></p>
+                        </a>
+                    </div>
+                    <div
+                        class="md:w-1/2 w-full h-full bg-red-500 md:rounded-tr-xl rounded-tr-none md:rounded-br-xl rounded-r-none rounded-br-xl rounded-bl-xl md:rounded-bl-none flex justify-center items-center">
+                        <div class="md:px-10 md:py-24">
+                            <img class="rounded-xl border-2 border-neutral-800 group-hover:scale-105 transition-all duration-300"
+                                src="assets/nusakara.png" alt="Nusakara Project">
+    
+                        </div>
+                    </div>
+                </div>
+                <div id="card-project"
+                    class="bg-white group flex md:flex-row flex-col justify-center items-center mt-10 border-4 border-neutral-800 rounded-2xl transition-all duration-300"
+                    data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+                    <div class="md:w-1/2 w-full md:py-10 py-7">
+                        <div class="flex md:space-x-10 space-x-5 items-center md:ml-10 ml-5">
+                            <p class="md:text-2xl text-xl font-bold">INDONESIA <br class="md:hidden block">PARADISE.</p>
+                            <p class="md:text-xl text-base md:px-6 px-4 py-2 bg-neutral-800 text-white rounded-lg">Web
+                                Design</p>
+                        </div>
+                        <p class="md:text-4xl text-3xl font-bold md:leading-[3rem] leading-[2.5rem] md:mt-10 mt-7 md:ml-10 ml-5">
+                            Discover Indonesia: Your Adventure Awaits
+    
+                        </p>
+                        <p class="font-semibold mt-3 leading-6 md:mr-20 mr-5 md:ml-10 ml-5">The page highlights Indonesia as
+                            a travel destination, focusing on popular spots like Bali and Labuan Bajo. It offers tours,
+                            discounts, and helpful trip planning resources.</p>
+                        <a href="#">
+                            <p class="mt-10 md:mt-14 text-lg font-bold md:ml-10 ml-5">View Project<span
+                                    class="group-hover:ml-2 transition-all duration-300"> 👉🏻</span></p>
+                        </a>
+                    </div>
+                    <div
+                        class="md:w-1/2 w-full h-full bg-purple-500 md:rounded-tr-xl rounded-tr-none md:rounded-br-xl rounded-r-none rounded-br-xl rounded-bl-xl md:rounded-bl-none flex justify-center items-center">
+                        <div class="md:px-10 md:py-24">
+                            <img class="rounded-xl border-2 border-neutral-800 group-hover:scale-105 transition-all duration-300"
+                                src="assets/indonesia-paradise.png" alt="Indonesia Paradise Project">
+    
+                        </div>
+                    </div>
+                </div>
+
+                <div id="card-project"
+                    class="bg-white group flex md:flex-row flex-col justify-center items-center mt-10 border-4 border-neutral-800 rounded-2xl transition-all duration-300"
+                    data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+                    <div class="md:w-1/2 w-full md:py-10 py-7">
+                        <div class="flex md:space-x-10 space-x-5 items-center md:ml-10 ml-5">
+                            <p class="md:text-3xl text-xl font-bold">OCEAN</p>
+                            <p class="md:text-xl text-base md:px-6 px-4 py-2 bg-neutral-800 text-white rounded-lg">Web
+                                Design</p>
+                        </div>
+                        <p class="md:text-4xl text-3xl font-bold md:leading-[3rem] leading-[2.5rem] md:mt-10 mt-7 md:ml-10 ml-5">
+                            Keep the Ocean Alive: Small Steps, Big Impact
+    
+                        </p>
+                        <p class="font-semibold mt-3 leading-6 md:mr-20 mr-5 md:ml-10 ml-5">This site promotes ocean conservation by focusing on protecting marine life and reducing plastic waste for a sustainable future.</p>
+                        <a href="#">
+                            <p class="mt-10 md:mt-14 text-lg font-bold md:ml-10 ml-5">View Project<span
+                                    class="group-hover:ml-2 transition-all duration-300"> 👉🏻</span></p>
+                        </a>
+                    </div>
+                    <div
+                        class="md:w-1/2 w-full h-full bg-blue-500 md:rounded-tr-xl rounded-tr-none md:rounded-br-xl rounded-r-none rounded-br-xl rounded-bl-xl md:rounded-bl-none flex justify-center items-center">
+                        <div class="md:px-10 md:py-24">
+                            <img class="rounded-xl border-2 border-neutral-800 group-hover:scale-105 transition-all duration-300"
+                                src="assets/ocean.png" alt="Indonesia Paradise Project">
+    
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="bg-neutral-800 mt-20">
+        <div class="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8" data-aos="fade-up"
+            data-aos-anchor-placement="top-bottom">
+            <div class="md:flex md:justify-between">
+                <div class="mb-6 md:mb-0">
+                    <a href="#" class="flex items-center">
+                        <img src="assets/logop.png" class="h-8 me-3 rounded-full" alt="FlowBite Logo" />
+                        <span class="self-center text-2xl font-semibold whitespace-nowrap text-white">Portfolio</span>
+                    </a>
+                </div>
+                <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-2">
+                    <div>
+                        <h2 class="mb-6 text-sm font-semibold text-white uppercase">Utility Pages</h2>
+                        <ul class="text-white font-medium">
+                            <li class="mb-4">
+                                <a href="https://flowbite.com/" class="hover:underline">Home</a>
+                            </li>
+                            <li class="mb-4">
+                                <a href="https://tailwindcss.com/" class="hover:underline">About</a>
+                            </li>
+                            <li class="">
+                                <a href="https://tailwindcss.com/" class="hover:underline">Project</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h2 class="mb-6 text-sm font-semibold text-white uppercase">Contact Us</h2>
+                        <ul class="text-white font-medium">
+                            <li class="mb-4">
+                                <a href="https://www.instagram.com/naufalazrieel/" class="hover:underline">Instagram</a>
+                            </li>
+                            <li class="mb-4">
+                                <a href="https://www.linkedin.com/in/naufal-azriel-al-azizy-3ab625283/"
+                                    class="hover:underline">LinkedIn</a>
+                            </li>
+                            <li>
+                                <a href="https://www.youtube.com/@ZRIIEL" class="hover:underline">Youtube</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <hr class="my-6 border-gray-200 sm:mx-auto lg:my-8" />
+            <div class="sm:flex sm:items-center sm:justify-center">
+                <span class="text-sm text-white sm:text-center">© 2025 <a href="" class="hover:underline">melopal</a>.
+                    All Rights Reserved.
+                </span>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        AOS.init();
+    </script>
+
+</body>
+
+</html>
